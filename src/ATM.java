@@ -19,6 +19,18 @@ public class ATM {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         Scanner sc= new Scanner(System.in); //create scanner object  to get user input.
 
+        boolean session = true;
+        while(session) {
+            //user menu options
+            System.out.println("\nATM Menu: \n \n"
+                                                + "1. Deposit Money \n"
+                                                + "2. Withdraw Money \n"
+                                                + "3. Transfer Funds \n"
+                                                + "4. Check Account Balance \n"
+                                                + "5. End Session: ");
+
+        }
+
 
 
     }
